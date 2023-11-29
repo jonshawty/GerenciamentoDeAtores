@@ -1,0 +1,22 @@
+﻿/* Estilo para os botões de editar e excluir */
+.gridview-edit,
+.gridview-delete {
+    background-color: #3498db; /* Cor de fundo para botões de editar/excluir */
+    color: #fff; /* Cor do texto nos botões de editar/excluir */
+    border: none; /* Sem borda nos botões de editar/excluir */
+    padding: 8px 15px; /* Espaçamento interno dos botões de editar/excluir */
+    cursor: pointer; /* Cursor ao passar sobre os botões de editar/excluir */
+    border-radius: 4px; /* Borda arredondada nos botões de editar/excluir */
+    transition: background-color 0.3s; /* Transição suave na cor de fundo */
+}
+
+    /* Estilo para os botões de editar e excluir ao passar o mouse */
+    .gridview-edit:hover,
+    .gridview-delete:hover {
+        background-color: #2980b9; /* Cor de fundo ao passar o mouse sobre os botões de editar/excluir */
+    }
+
+    /* Adiciona um espaçamento entre os botões */
+    .gridview-edit + .gridview-delete {
+        margin-left: 5px;
+    }
